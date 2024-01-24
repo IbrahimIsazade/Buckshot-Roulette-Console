@@ -1,0 +1,22 @@
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\bin\Debug\net8.0\Extensions.deps.json
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\bin\Debug\net8.0\Extensions.runtimeconfig.json
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\bin\Debug\net8.0\Extensions.exe
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\bin\Debug\net8.0\Buckshot Roulette.exe
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\bin\Debug\net8.0\Buckshot Roulette.deps.json
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\bin\Debug\net8.0\Buckshot Roulette.runtimeconfig.json
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\bin\Debug\net8.0\Buckshot Roulette.dll
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\bin\Debug\net8.0\Buckshot Roulette.pdb
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\bin\Debug\net8.0\Extensions.dll
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\bin\Debug\net8.0\Extensions.pdb
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\obj\Debug\net8.0\Buckshot Roulette.csproj.AssemblyReference.cache
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\obj\Debug\net8.0\Buckshot Roulette.GeneratedMSBuildEditorConfig.editorconfig
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\obj\Debug\net8.0\Buckshot Roulette.AssemblyInfoInputs.cache
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\obj\Debug\net8.0\Buckshot Roulette.AssemblyInfo.cs
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\obj\Debug\net8.0\Buckshot Roulette.csproj.CoreCompileInputs.cache
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\obj\Debug\net8.0\Buckshot Roulette.sourcelink.json
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\obj\Debug\net8.0\Buckshot Roulette.csproj.CopyComplete
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\obj\Debug\net8.0\Buckshot Roulette.dll
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\obj\Debug\net8.0\refint\Buckshot Roulette.dll
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\obj\Debug\net8.0\Buckshot Roulette.pdb
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\obj\Debug\net8.0\Buckshot Roulette.genruntimeconfig.cache
+D:\Solutions\Buckshot Roulette\Buckshot Roulette\obj\Debug\net8.0\ref\Buckshot Roulette.dll

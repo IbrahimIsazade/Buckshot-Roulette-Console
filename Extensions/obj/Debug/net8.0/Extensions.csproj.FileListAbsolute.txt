@@ -1,0 +1,15 @@
+D:\Solutions\Buckshot Roulette\Extensions\bin\Debug\net8.0\Extensions.exe
+D:\Solutions\Buckshot Roulette\Extensions\bin\Debug\net8.0\Extensions.deps.json
+D:\Solutions\Buckshot Roulette\Extensions\bin\Debug\net8.0\Extensions.runtimeconfig.json
+D:\Solutions\Buckshot Roulette\Extensions\bin\Debug\net8.0\Extensions.dll
+D:\Solutions\Buckshot Roulette\Extensions\bin\Debug\net8.0\Extensions.pdb
+D:\Solutions\Buckshot Roulette\Extensions\obj\Debug\net8.0\Extensions.GeneratedMSBuildEditorConfig.editorconfig
+D:\Solutions\Buckshot Roulette\Extensions\obj\Debug\net8.0\Extensions.AssemblyInfoInputs.cache
+D:\Solutions\Buckshot Roulette\Extensions\obj\Debug\net8.0\Extensions.AssemblyInfo.cs
+D:\Solutions\Buckshot Roulette\Extensions\obj\Debug\net8.0\Extensions.csproj.CoreCompileInputs.cache
+D:\Solutions\Buckshot Roulette\Extensions\obj\Debug\net8.0\Extensions.sourcelink.json
+D:\Solutions\Buckshot Roulette\Extensions\obj\Debug\net8.0\Extensions.dll
+D:\Solutions\Buckshot Roulette\Extensions\obj\Debug\net8.0\refint\Extensions.dll
+D:\Solutions\Buckshot Roulette\Extensions\obj\Debug\net8.0\Extensions.pdb
+D:\Solutions\Buckshot Roulette\Extensions\obj\Debug\net8.0\Extensions.genruntimeconfig.cache
+D:\Solutions\Buckshot Roulette\Extensions\obj\Debug\net8.0\ref\Extensions.dll
