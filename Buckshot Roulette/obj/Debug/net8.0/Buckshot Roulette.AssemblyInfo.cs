@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Buckshot Roulette")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c9457ed1f9f267adb2cb007154d22e319857a42")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08e2d87e7c11a8cf946a05e8cbfdb4196f7bbc46")]
 [assembly: System.Reflection.AssemblyProductAttribute("Buckshot Roulette")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Buckshot Roulette")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

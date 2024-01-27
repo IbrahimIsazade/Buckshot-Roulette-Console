@@ -10,6 +10,7 @@ namespace Buckshot_Roulette.Models
         private byte PHealth;
         private byte DHealth;
         private byte Stage;
+        private byte DealerTurns;
         private byte MaxCount = 0;
         BulletType[] Sequence = Array.Empty<BulletType>();
 
@@ -89,6 +90,7 @@ namespace Buckshot_Roulette.Models
             // Clearing to hide bullets
             Console.Clear();
 
+        playerTurn:
             // Cheking for limits
             while(MaxCount > 0)
             {
@@ -117,6 +119,7 @@ namespace Buckshot_Roulette.Models
                             Console.Clear();
                             Sequence = Sequence.Where((bullet, index) => index != (int)luck).ToArray();
                             PHealth--;
+                            live--;
 
                             // Checking for health
                             if (PHealth > 0)
@@ -142,9 +145,11 @@ namespace Buckshot_Roulette.Models
                         {
                             Console.Clear();
                             Sequence = Sequence.Where((bullet, index) => index != (int)luck).ToArray();
-                            
+                            blank--;
+
                             Print.ByGame("You didn't get shot.", MessageType.GameInfo);
                             Thread.Sleep(1500);
+                            goto playerTurn;
                         }
                         break;
 
@@ -168,6 +173,7 @@ namespace Buckshot_Roulette.Models
                             Console.Clear();
                             Sequence = Sequence.Where((bullet, index) => index != (int)luck).ToArray();
                             DHealth--;
+                            live--;
 
                             // Checking for health
                             if (DHealth > 0)
@@ -195,7 +201,8 @@ namespace Buckshot_Roulette.Models
                         {
                             Console.Clear();
                             Sequence = Sequence.Where((bullet, index) => index != (int)luck).ToArray();
-                            
+                            blank--;
+
                             Print.ByGame("Dealer didn't get shot.", MessageType.GameInfo);
                             Thread.Sleep(1500);
                         }
@@ -203,13 +210,23 @@ namespace Buckshot_Roulette.Models
                 }
                 Console.Clear();
 
-                // Checking for count
-                if (MaxCount <= 0)
-                    goto restart;
 
                 // Dealer turn
-                Random dealerChoise = new Random();
-                switch (dealerChoise.Next(1, 3))
+                byte dealerChoise;
+
+                // Dealer is thinking
+                Random rDealer = new Random();
+            dealerChoise:
+                // Checking for count
+
+                DealerTurns++;
+                if (MaxCount <= 0)
+                    goto restart;
+                if (blank > live) { dealerChoise = 1; }
+                else if (blank < live) { dealerChoise = 2; }
+                else { dealerChoise = (byte)rDealer.Next(1, 3); }
+
+                switch (dealerChoise)
                 {
                     case 1:
                         Random rLuck = new Random();
@@ -230,6 +247,7 @@ namespace Buckshot_Roulette.Models
                             Console.Clear();
                             Sequence = Sequence.Where((bullet, index) => index != (int)luck).ToArray();
                             DHealth--;
+                            live--;
 
                             // Checking for health
                             if (DHealth > 0)
@@ -252,8 +270,11 @@ namespace Buckshot_Roulette.Models
                         {
                             Console.Clear();
                             Sequence = Sequence.Where((bullet, index) => index != (int)luck).ToArray();
-                            
+                            blank--;
+
                             Print.ByGame("Dealer didn't get shot.", MessageType.GameInfo);
+                            Thread.Sleep(1500);
+                            goto dealerChoise;
                         }
                         break;
 
@@ -276,6 +297,7 @@ namespace Buckshot_Roulette.Models
                             Console.Clear();
                             Sequence = Sequence.Where((bullet, index) => index != (int)luckP).ToArray();
                             PHealth--;
+                            live--;
 
                             // Checking for health
                             if (PHealth > 0)
@@ -287,14 +309,15 @@ namespace Buckshot_Roulette.Models
                             else
                             {
                                 Thread.Sleep(2000);
-                                Print.ByDealer("Dealer: This time I won't let you get me");
+                                Print.ByDealer("I got u, hehehe");
                             }
                         }
                         else
                         {
                             Console.Clear();
                             Sequence = Sequence.Where((bullet, index) => index != (int)luckP).ToArray();
-                            
+                            blank--;
+
                             Print.ByGame("You didn't get shot.", MessageType.GameInfo);
                         }
                         break;
@@ -328,7 +351,8 @@ namespace Buckshot_Roulette.Models
             {
                 Print.ByGame("Incorrect choise, please rewrite.", MessageType.Exception);
                 Thread.Sleep(1000);
-                goto getChoise;
+                Console.Clear();
+;               goto getChoise;
             }
 
             return choise;
